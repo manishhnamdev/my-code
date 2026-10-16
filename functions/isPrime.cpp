@@ -14,11 +14,6 @@ int iseven ( int n ){
         int n;
         cin>>n;
         int ans= iseven(n);
-        if (ans==0){
-            cout<<"not prime";
-        }
-        else {
-            cout<<"prime";
-        }
+      cout<<ans<<endl;
         
-    }
+    } 
